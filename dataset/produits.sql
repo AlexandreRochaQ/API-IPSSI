@@ -28,13 +28,11 @@ SET time_zone = "+00:00";
 --
 
 INSERT INTO `produits` (`id`, `nom`, `description`, `prix`, `stock`, `categorieId`, `createdAt`, `updatedAt`) VALUES
-(1, 'Aspirateur', 'Aspirateur DYSON Dernier cri', 150, 1000, 1, '2025-04-02 13:05:16', '2025-04-02 13:05:16'),
-(2, 'Seche-cheveux', 'Seche-cheveux DYSON Dernier cri', 500, 1000, 1, '2025-04-02 13:05:44', '2025-04-02 13:05:44'),
-(3, 'Croquette', 'Miam miam', 500, 1000, 2, '2025-04-02 13:07:11', '2025-04-02 13:07:11'),
-(4, 'Croquette 2', 'Miam miam', 500, 0, 2, '2025-04-02 13:07:16', '2025-04-02 13:07:16'),
-(5, 'test3', 'test3', 10, 10, 1, '2025-04-02 13:24:10', '2025-04-02 13:24:10'),
-(6, 'test4', 'test4', 30, 2, 1, '2025-04-02 13:24:10', '2025-04-02 13:24:10'),
-(7, 'test5', 'test5', 500, 23, 1, '2025-04-02 13:25:16', '2025-04-02 13:25:16');
+(1, 'T-shirt', 'T-shirt en coton bio', 25, 500, 4, '2025-04-02 14:10:00', '2025-04-02 14:10:00'),
+(2, 'Ballon de foot', 'Ballon officiel FIFA', 30, 200, 6, '2025-04-02 14:11:00', '2025-04-02 14:11:00'),
+(3, 'Console de jeu', 'Dernière console Next-Gen', 499, 50, 1, '2025-04-02 14:12:00', '2025-04-02 14:12:00'),
+(4, 'Roman', 'Bestseller 2025', 20, 300, 7, '2025-04-02 14:13:00', '2025-04-02 14:13:00'),
+(5, 'Canapé', 'Canapé 3 places en cuir', 700, 10, 8, '2025-04-02 14:14:00', '2025-04-02 14:14:00');
 
 --
 -- Indexes for dumped tables

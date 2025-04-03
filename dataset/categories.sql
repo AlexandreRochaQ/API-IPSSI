@@ -28,9 +28,12 @@ SET time_zone = "+00:00";
 --
 
 INSERT INTO `categories` (`id`, `nom`, `description`, `codeEAN`, `createdAt`, `updatedAt`) VALUES
-(1, 'Electronique et menager', 'Produit electronique et menager', 'EAN-bsq4d2u97', '2025-04-02 13:03:10', '2025-04-02 13:03:10'),
-(2, 'Alimentation', 'Miam miam', 'EAN-1eewm3vj4', '2025-04-02 13:06:21', '2025-04-02 13:06:21'),
-(3, 'Croquette', 'Miam miam', 'EAN-nn9kwq7dm', '2025-04-02 13:06:36', '2025-04-02 13:06:36');
+(1, 'Vêtements', 'Mode et accessoires', 'EAN-xyz123abc', '2025-04-02 14:00:00', '2025-04-02 14:00:00'),
+(2, 'Jouets', 'Pour les petits et grands', 'EAN-abc456def', '2025-04-02 14:01:00', '2025-04-02 14:01:00'),
+(3, 'Sports et Loisirs', 'Équipements et accessoires de sport', 'EAN-qwe789rty', '2025-04-02 14:02:00', '2025-04-02 14:02:00'),
+(4, 'Livres', 'Livres et magazines', 'EAN-uio456plm', '2025-04-02 14:03:00', '2025-04-02 14:03:00'),
+(5, 'Meubles', 'Mobilier intérieur et extérieur', 'EAN-asd987fgh', '2025-04-02 14:04:00', '2025-04-02 14:04:00');
+
 
 --
 -- Indexes for dumped tables
